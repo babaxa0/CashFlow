@@ -1,0 +1,108 @@
+﻿@page "/Income_Expenses"
+<body>
+    <div class = "income_expenses">
+        <label>Доход/Расход: </label>
+        <select>
+            <option>Доход</option>
+            <option>Расход</option>
+        </select>
+    </div>
+    <div class = "sum">
+        <label>Сумма: </label>
+        <input>
+    </div>
+    <div class = "what">
+        <label>Что: </label>
+        <select>
+            <option>Налоги</option>
+            <option>Налоги основателя</option>
+            <option>Оплата сотрудникам</option>
+            <option>Вакансии</option>
+            <option>Премии сотрудникам</option>
+            <option>Налоги на сотрудников</option>
+            <option>Офис сервисы</option>
+            <option>Офис</option>
+            <option>Сервисы за клиентов (EduIndex, ...)</option>
+            <option>RPA</option>
+            <option>Реклама, маркетинг</option>
+            <option>Обучение, сообщества</option>
+            <option>Корректировка</option>
+            <option>Оплата за работы</option>
+            <option>Пополнение счёта</option>
+            <option>Оплата подрядчикам</option>
+        </select>
+    </div>
+    <div class = "comment">
+        <label>Комментарий: </label>
+        <input type="text">
+    </div>
+    <div class = "employee">
+        <label>Сотрудник: </label>
+        <select>
+            <option>DS</option>
+            <option>RI</option>
+            <option>TS</option>
+            <option>NP</option>
+            <option>IV</option>
+            <option>NU</option>
+            <option>AE</option>
+            <option>AK (offsite)</option>
+        </select>
+    </div>
+    <div class = "month">
+        <label>Месяц: </label>
+        <select>
+            <option>Январь</option>
+            <option>Февраль</option>
+            <option>Март</option>
+            <option>Апрель</option>
+            <option>Май</option>
+            <option>Июнь</option>
+            <option>Июль</option>
+            <option>Август</option>
+            <option>Сентябрь</option>
+            <option>Октябрь</option>
+            <option>Ноябрь</option>
+            <option>Декабрь</option>
+        </select>
+    </div>
+    <div class = "date">
+        <label>Дата: </label>
+        <input type="date">
+    </div>
+    <div class = "fund">
+        <label>Фонд: </label>
+        <select>
+            <option>Фонд основателя</option>
+            <option>Фонд ЗП</option>
+            <option>Фонд маркетинг</option>
+            <option>Фонд офис</option>
+            <option>Фонд резерва и развития</option>
+        </select>
+    </div>
+    <div class = "month_in_order">
+        <label>Месяц по порядку: </label>
+        <input>
+    </div>
+    <button class="button">Сохранить</button>
+</body>
+
+<style>
+    .income_expenses, .sum, .what, .comment, .employee, .month, .date, .fund, .month_in_order{
+        padding: 0px 0px 20px 0px;
+    }
+    .button{
+        background-color: #3A0647;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+    }
+</style>
+
+@code {
+
+}
